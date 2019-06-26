@@ -5,8 +5,13 @@ This is a tensorflow and keras based implementation of FSKNet for HSI
 
  ![](./picture/FSKNet.png) 
 
+Combining 3D-CNN and 2D-CNN conversion module
+
 
  ![](./picture/Combining 3D-CNN and 2D-CNN conversion module.png) 
+
+
+Selective kernel mechanism
 
 
  ![](./picture/Selective kernel mechanism.png) 
