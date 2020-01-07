@@ -17,6 +17,7 @@ from Utils.adabound import *
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
+/////////
 def indexToAssignment(index_, Row, Col, pad_length):
     new_assign = {}
     for counter, value in enumerate(index_):
