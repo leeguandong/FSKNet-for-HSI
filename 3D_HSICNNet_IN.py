@@ -17,9 +17,6 @@ from Utils.adabound import *
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
-# 产生新数据集的过程
-# indexToAssignment(train_indices, whole_data.shape[0], whole_data.shape[1], PATCH_LENGTH)
-# 训练集 ，151 ，151， 3
 def indexToAssignment(index_, Row, Col, pad_length):
     new_assign = {}
     for counter, value in enumerate(index_):
